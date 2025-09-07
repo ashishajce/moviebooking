@@ -1,64 +1,63 @@
-# MovieBooking API
+# 🎬 MovieBooking System
 
-A clean and modular backend API for a movie booking system, built with Node.js and Express.
+A robust and modular **Movie Booking Backend API** built with **Node.js** and **Express.js** for managing users, movies, and bookings efficiently.
 
 ---
 
-##  Table of Contents
-- [Overview](#overview)  
-- [Features](#features)  
-- [Tech Stack](#tech-stack)  
-- [Getting Started](#getting-started)  
-  - [Prerequisites](#prerequisites)  
-  - [Installation](#installation)  
-  - [Running the Application](#running-the-application)  
-- [Project Structure](#project-structure)  
-- [API Endpoints](#api-endpoints)  
-- [Contributing](#contributing)  
+## 📌 Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [API Endpoints](#api-endpoints)
+- [Contributing](#contributing)
 - [License](#license)
 
 ---
 
-## Overview
+## 📝 Overview
 
-This repository contains the backend API for a movie booking system. It handles essential functionalities such as user registration, movie browsing, seat booking, and more.
-
----
-
-## Features
-
-- User authentication (signup & login)  
-- CRUD operations for movies and bookings  
-- Versioned routing (`routes/v1`)  
-- Modular architecture with controllers and models
+MovieBooking is a backend API that powers a dynamic movie ticket booking platform.  
+It provides endpoints for **user authentication, movie listings, seat booking, and booking history**, designed for scalability and maintainability.
 
 ---
 
-## Tech Stack
+## ✨ Features
 
-| Component         | Technology         |
-|------------------|--------------------|
-| Backend runtime  | Node.js            |
-| Framework        | Express.js         |
-| Language         | JavaScript (ES6+)  |
-| Package manager  | npm                |
-| Architecture     | MVC / modular      |
+- 🔐 **User Authentication** (Register/Login)  
+- 🎥 **Movie Management** – Add, view, and manage movies  
+- 🎟 **Booking System** – Reserve and manage tickets  
+- 🛠 **Modular MVC Architecture** – Clean and scalable codebase  
+- 🌐 **Versioned API** – `/api/v1` support for future-proofing
 
 ---
 
-## Getting Started
+## 🛠 Tech Stack
+
+| Layer             | Technology        |
+|-------------------|-------------------|
+| Runtime           | Node.js           |
+| Framework         | Express.js        |
+| Language          | JavaScript (ES6+) |
+| Database          | MongoDB / SQL (configurable) |
+| Package Manager   | npm               |
+
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
-- [Node.js](https://nodejs.org/en/) (v14+)
-- [npm](https://www.npmjs.com/) (v6+)
-- A working database (e.g., MongoDB, PostgreSQL)—configure via environment variables
+- [Node.js](https://nodejs.org/) v14+  
+- [npm](https://www.npmjs.com/) v6+  
+- A database connection (MongoDB recommended)  
 
 ### Installation
 ```bash
 # Clone the repository
 git clone https://github.com/ashishajce/moviebooking.git
 
-# Navigate into the project directory
+# Navigate to the project directory
 cd moviebooking
 
 # Install dependencies
